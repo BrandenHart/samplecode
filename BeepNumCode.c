@@ -1,3 +1,12 @@
+/* 1. When the push button S1 (J4.33) of the MKII board is pressed, blink (on and off) the 
+red LED (J4.39) based on the series ((n+1)^2) /4) where n is the number of presses. (1st press 
+→ 1 blink, 2nd press → 2 blinks, 3rd press → 4 blinks and so on)
+2. When the push button S2 (J4.32) of the MKII board is pressed, blink (on and off) the 
+green LED (J4.38) based on the number of presses. (1stpress → 1 blink, 2ndpress → 2 
+blinks, 3rdpress → 3 blinks, 4thpress → 4 blinks, and so on)
+3. Each time when the switch S1 or S2 is pressed, generate a beep using the buzzer
+*/
+
 #define NOTE_C4_1 260
 #include "pitches.h"
 
