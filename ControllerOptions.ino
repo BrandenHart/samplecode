@@ -1,4 +1,8 @@
-#include <Wire.h>
+C program that displays ambient light intensity value, sounds buzzer, and displays color on LED with option to 
+adjust brightness (MSP432 microcontroller)
+
+
+  #include <Wire.h>
 #include "OPT3001.h"
 #include "Adafruit_TMP006.h"
 #define USE_USCI_B1 
