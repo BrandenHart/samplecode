@@ -1,3 +1,8 @@
+
+
+// Dual push button controlled digital clock using interrupts (programmed in C on MSP432 microcontroller)
+
+
 #include <Wire.h>
 #include "Adafruit_TMP006.h"
 #define USE_USCI_B1 
