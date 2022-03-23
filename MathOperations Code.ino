@@ -1,6 +1,12 @@
-
-
-
+/* 1. When the command POWm n R is typed on the serial communication console, the red LED 
+(J4.39) should blink based on the computation of m^n (m to the power n). (Example values of m 
+and n: if m = 2 and n = 1 then 2 blinks, if m = 2 and n = 2 then 4 blinks, if m = 3 and n = 2 then 9 
+blinks, and so on). Do not use the in-built pow () function for the computation of m^n.
+2. When the command SRS n G is typed on the serial communication console, the green LED 
+(J4.38) should blink based on the series an = 3an-1 - an-2 where a1 = 1 and a2 = 1. (Example 
+values of n: if n = 1 then 1 blink as a1 = 1, if n = 2 then 1 blink as a2 = 1, if n = 3 then 2 blinks as 
+a3 = 2, and so on) 
+*/
 
 
 #include <Wire.h>
