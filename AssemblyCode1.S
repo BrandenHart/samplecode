@@ -1,4 +1,8 @@
- 	.data
+ // ARM Cortex Assembly program that takes the average and standard deviation of 8 floating point numbers
+ 
+ 
+ 
+ .data
  	.type a, %object
  	.type n, %object
  	.size a, 8
