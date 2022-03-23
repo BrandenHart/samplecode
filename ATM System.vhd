@@ -1,7 +1,7 @@
-LIBRARY ieee;
+-- Simple ATM Banking System I designed in VHDL based on 5 generated events. The project was created on Intel Quartus and tested on an Altera FPGA board.
 
---State Machine Design of   
---
+LIBRARY ieee;  
+
 USE ieee.std_logic_1164.ALL;
 --an ATM Printer Controller 
 ENTITY state_atm IS
