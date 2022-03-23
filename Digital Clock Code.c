@@ -1,6 +1,11 @@
+/*1. The LCD should display a running digital clock aligned to the center of the screen with hours, 
+minutes, seconds in 24-hour format (military time format)
+2. The clock display format should be of the format HH:MM:SS for showing the 2-digit hours, 2-
+digit minutes, and 2-digit seconds
+3. The red LED (J4.39) should do a quick blink (fast turn on and then fast turn off) for every 
+change in second
+*/
 
-
-// Dual push button controlled digital clock using interrupts (programmed in C on MSP432 microcontroller)
 
 
 #include <Wire.h>
