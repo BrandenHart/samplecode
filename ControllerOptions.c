@@ -1,4 +1,4 @@
-C program that displays ambient light intensity value, sounds buzzer, and displays color on LED with option to 
+// C program that displays ambient light intensity value, sounds buzzer, and displays color on LED with option to 
 adjust brightness (MSP432 microcontroller)
 
 
