@@ -1,4 +1,6 @@
- 	.data
+ 	// ARM Cortex assembly program that indicates largest and smallest values in a set
+  
+  .data
  	.type a, %object
  	.type n, %object
  	.size n, 1
